@@ -14,15 +14,29 @@ header
 	height:120px;
 	color: rgb(37,37,37);
 }
-span
+.gmailimage , .connexion
 {
-	margin:10px 10px;
+	margin:5px 10px;
 
 }
 img
 {
-	margin-right: 10px;
-	margin-top: 12px;
+	margin-top: 15px;
+	
+}
+.connexion
+{
+	background-color: rgb(67,135,251);
+	padding: 8px;
+	height: 8px;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.gmailimage:hover
+{
+	text-decoration:underline;;
 }
 
 /*style google serach section*/
@@ -40,8 +54,8 @@ img
 	width: 300px;
 	height: 200px;
 	margin:0px auto;
-
 }
+
  input[type=search]
  {
 	width:50%;
@@ -53,6 +67,7 @@ img
 	border-bottom: 2px solid #ccc;
 	border-radius: 2px;
 }
+
 input[type=search]:focus
 {
     box-shadow: 3px 4px 2px 3px #f5edf0;
@@ -76,5 +91,12 @@ button[type=search]:hover
 	border-radius: 3px;
 	font-weight: bold;
 	background-color: rgb(243,243,243);
+}
+
+/*style footer*/
+footer{
+	background-color: rgb(242,242,242);
+	height: 40px;
+	width: 100%;
 }
 
