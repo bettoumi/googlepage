@@ -9,21 +9,27 @@ header
 {
 	text-align: right;
 	font-size: 12px;
-	/*margin-top: 10px;*/
-	width: 100%;
 	height:120px;
 	color: rgb(37,37,37);
 }
+
+header, .google-recherche
+{
+	width: 100%;
+}
+
 .gmailimage , .connexion
 {
 	margin:5px 10px;
 
 }
+
 img
 {
 	margin-top: 15px;
 	
 }
+
 .connexion
 {
 	background-color: rgb(67,135,251);
@@ -38,6 +44,7 @@ img
 {
 	text-decoration:underline;;
 }
+
 img:hover
 {
 	color: #e5dbde;
@@ -47,7 +54,6 @@ img:hover
 .google-recherche
 {
 	
-	width: 100%;
 	height: 500px;
 	text-align: center;
 }
@@ -76,6 +82,7 @@ input[type=search]:focus
     box-shadow: 3px 4px 2px 3px #f5edf0;
 
 }
+
 /*style the button*/
 button[type=search]{
 	border:none;
@@ -83,10 +90,12 @@ button[type=search]{
 	font-size: 14px;
 	border-radius: 2px;
 }
+
 button[type=search]
 {
 	font-size: 12px;
 }
+
 button[type=search]:hover
 {
 	color:black;
@@ -104,6 +113,7 @@ footer{
 	border-top: 1px solid   rgb(228,228,228);
 	padding-top: 10px;
 }
+
 .adroite, .agauche
 {
 	color: rgb(128,123,115);
@@ -111,9 +121,11 @@ footer{
 	text-decoration: none;
 	margin: 0px 8px;
 }
+
 .adroite{
 	float: right;
 }
+
 a:hover{
 	text-decoration: underline;;
 }
